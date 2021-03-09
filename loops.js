@@ -22,7 +22,7 @@ function doWhileLoop(num){
   function Math(){
     return Math.random() => 0.5
   }
-  
+
   do{
     console.log("I run once regardless.")
   } while (Math().length <0);
