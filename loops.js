@@ -24,5 +24,5 @@ function doWhileLoop(num){
   }
   do{
     console.log("I run once regardless.")
-  } while (maybeTrue <0);
+  } while (maybeTrue <10);
 }
