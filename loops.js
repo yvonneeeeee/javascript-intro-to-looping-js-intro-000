@@ -22,7 +22,6 @@ function doWhileLoop(num){
   function maybeTrue(){
     return Math.random() => 0.5
   }
-
   do{
     console.log("I run once regardless.")
   } while (num <0);
