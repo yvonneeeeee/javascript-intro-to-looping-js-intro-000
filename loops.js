@@ -19,11 +19,11 @@ function whileLoop(n){
 }
 
 function doWhileLoop(num){
-  function Math(){
+  function maybeTrue(){
     return Math.random() => 0.5
   }
 
   do{
     console.log("I run once regardless.")
-  } while (Math.length <0);
+  } while (maybeTrue().,eength <0);
 }
