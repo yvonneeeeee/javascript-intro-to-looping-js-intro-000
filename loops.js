@@ -30,7 +30,7 @@ function doWhileLoop(num) {
 
   do {
     console.log("I run one regardless. 10");
-  } while (num.length > 0 )
+  } while (num.length / 10 > 0 )
     return num;
   }
 }
