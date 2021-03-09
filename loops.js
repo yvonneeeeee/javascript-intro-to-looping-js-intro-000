@@ -26,4 +26,11 @@ function doWhileLoop(num) {
     console.log("I run once regardless.");
   } while (num.length > -1 && maybeTrue());
     return num;
+  }
+
+  do {
+    console.log("i run one regardless.10");
+  } while (incrementVariable() <num )
+    return num;
+  }
 }
