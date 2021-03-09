@@ -21,8 +21,9 @@ function whileLoop(n){
 function doWhileLoop(num){
   function Math(){
     return Math.random() => 0.5
-  }return Math()
+  }
+  
   do{
-  console.log("I run once regardless.")
+    console.log("I run once regardless.")
   } while (Math().length <0);
 }
