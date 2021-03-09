@@ -17,3 +17,13 @@ function whileLoop(n){
     }
     return 'done'
 }
+function doWhileLoop(num) {
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
+
+  do {
+    console.log("I run once regardless.");
+  } while (num.length > -1 && maybeTrue());
+    return num;
+}
